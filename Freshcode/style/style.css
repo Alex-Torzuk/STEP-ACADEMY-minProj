@@ -4,6 +4,7 @@
 /* General styles */
 body {
     font-family: Montserrat;
+    font-size: 1em;
 }
 /* header style */
 
@@ -20,3 +21,20 @@ body {
 }
 
 /* First screen */
+
+.firsr-screen {
+    background-image:url('/Freshcode/images/Frame\ 12146\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.main-title {
+    font-weight: 800;
+    font-size: 4.06em;
+}
+
+.main-description {
+
+}
