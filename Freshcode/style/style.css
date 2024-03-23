@@ -38,3 +38,14 @@ body {
 .main-description {
 
 }
+
+
+.desc-header {
+    font-weight: 400;
+    font-size: 3.64em;
+}
+
+.desc-text {
+    font-weight: 400;
+    font-size: 1.1em;
+}
