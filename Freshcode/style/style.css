@@ -15,6 +15,11 @@ body {
    align-items: center;
    padding: 2.2em 3.94em;
    justify-content: space-between;
+   position: fixed;
+   background-color: white;
+   top: 0;
+   left: 0;
+   right: 0;
 }
 
 .logo {
@@ -51,28 +56,128 @@ margin-left: 3.1em;
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-top: 19vh;
 }
 
 .first-screen-container {
     width: 50%;
+    margin-left: 7vw;
 }
 
 .main-title {
     font-weight: 800;
     font-size: 4.06em;
+    width: 23vw;
+    color: #FFFFFF;
 }
 
 .main-description {
+    width: 23vw;
+    margin-top: 3vh;
+}
 
+.white-button{
+    background-color: #FFFFFF;
+    margin-top: 3vh;
+    margin-left: 0;
+}
+
+/* description-screen */
+
+.discription-title {
+    padding: 12vh;
+}
+
+.desc-main, .desc-main-second, .desc-main-under{
+    font-weight: 400;
+    font-size: 4.3em;
+    width: 65rem;
+   text-align: center;
+   margin: 0 auto;
+   text-transform: uppercase;
+}
+
+.desc-main-second{
+    text-transform: none;
+    font-size: 1.5em;
+   
+    margin: 1.4vh auto;
+}
+
+.desc-main-under{
+    font-size: 1.1em;
+    color: #73A6B1;
 }
 
 
 .desc-header {
     font-weight: 400;
     font-size: 3.64em;
+    text-transform: uppercase;
+    margin-bottom: 1vh;
+    width: 50rem;
 }
 
 .desc-text {
     font-weight: 400;
     font-size: 1.1em;
 }
+
+.discription-block{
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+    align-items: center;
+    /* margin-top: 19vh; */
+background-color: #F1FDFF;
+padding: 2vh 3vw;
+margin: 0vh 4vw 3vw;
+}
+
+/* Two block section */
+.flex-wrapper {
+    width: 37vw;
+}
+
+
+.block-img {
+max-width: 40vw;
+border-radius: 2vh;
+}
+
+.blue-button-center {
+    margin: 0 auto 8vw;
+    display: block;
+}
+
+.text-block-together {
+    font-size: 1.55em;
+}
+
+.block-together {
+    margin-bottom: 8vw;
+}
+
+.support-main {
+    width: 70rem;
+    margin-bottom: 2vw;
+}
+
+.support-text {
+    width: 70rem;
+    text-transform: none;
+    margin-bottom: 3vw;
+}
+
+.support-border-span{
+    border-right: 1px solid #9AD2DE;
+    margin-right: 1vh;
+}
+
+.support-p {
+    font-weight: 400;
+    font-size: 3.33em;
+    text-align: center;
+    margin-bottom: 3vw;
+}
+
