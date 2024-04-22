@@ -181,3 +181,72 @@ border-radius: 2vh;
     margin-bottom: 3vw;
 }
 
+.footer-main {
+    background-color: #F9FADF;
+    padding: 0vh 0vw 20vh;
+}
+
+.footer-contacts{
+    display: flex;
+    justify-content: space-around;
+    padding: 10vh 0;
+}
+
+.footer-contacts-left{
+margin: 0;
+text-align: unset;
+width: auto;
+}
+
+.footer-contacts-right-text{
+    width: 25rem;
+    margin-bottom: 5vw;
+}
+
+.img-phone-bold{
+    font-weight: bold;
+}
+
+.footer-contacts-messeng-img{
+    display: flex;
+}
+
+.footer-contacts-right-text-append {
+    margin: 0;
+}
+
+.footer-mail {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #FFFFFF;
+    margin: 0vh 3vw;
+    padding: 10vh;
+}
+
+.footer-mail-right {
+    width: 26rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer-mail-text{
+    margin-bottom: 1.5vw;
+}
+
+.footer-mail-input{
+    width: 28rem;
+    border-radius: 4.8rem;
+    margin-bottom: 1.5vw;
+    background-color: #F9FADF;
+    border: none;
+    padding: 1.15em 1.94em;
+
+}
+
+.footer-mail-btn{
+    background-color: #7AE5FD;
+    margin-bottom: 0;
+    width: 31.5rem;
+    text-transform: uppercase;
+}
